@@ -31,6 +31,8 @@
           <h1><%= post.title %></h1>
           <p><%= post.detail %></p>
           <p class="text-primary"><%= post.dateCreated %></p>
+          <a class="btn btn-primary" href="/posts/edit/<%= post._id %>"  role="button">Edit</a>
+          <a class="btn btn-primary" href="#" role="button">Delete</a>
         </div>
       </div>
     </div>
